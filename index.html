@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="main">
+<div class="slider">
+    <div class="slides">
+        <!-- Slide 1 -->
+        <div class="slide" id="slide-1">
+            <img src="image1.jpg" alt="Image 1">
+        </div>
+        <!-- Slide 2 -->
+        <div class="slide" id="slide-2">
+            <img src="image2.jpg" alt="Image 2">
+        </div>
+        <!-- Slide 3 -->
+        <div class="slide" id="slide-3">
+            <img src="image3.jpg" alt="Image 3">
+        </div>
+        <!-- Weitere Slides hier hinzufügen -->
+    </div>
+    <a class="prev" onclick="moveSlide(-1)">&#10094;</a>
+    <a class="next" onclick="moveSlide(1)">&#10095;</a>
+</div>
+<div class="text-content">
+        <p class="text">Hier steht der Text, der neben dem Slider erscheinen soll. Hier steht der Text, der neben dem Slider erscheinen soll.Hier steht der Text, der neben dem Slider erscheinen soll.Hier steht der Text, der neben dem Slider erscheinen soll.</p>
+        <!-- Weitere Inhalte hier -->
+        <div id="paypal-button-container"></div>
+        <p id="result-message"></p>
+     <!-- Replace the "test" client-id value with your client-id -->
+        <script src="https://www.paypal.com/sdk/js?client-id=AWFTycc2laJidRMVuUlbTM_NyoN8d5nKZutynmbXA6NXJUe8_AZBn0U8X7BwXQ54Wja2r8WeQTm-drvz&currency=USD"></script>
+             <script src="app.js"></script>
+         </div>
+	    </div>
+        
+<footer>
+    <div class="footer-content">
+        <div class="legal-links">
+            <a href="impressum.html">Impressum</a>
+            <a href="datenschutz.html">Datenschutzerklärung</a>
+            <a href="agb.html">AGB</a>
+        </div>
+        <div class="contact-info">
+            <p>Kontaktieren Sie uns:</p>
+            <p>Email: info@beispiel.de</p>
+            <p>Telefon: +49 123 456 7890</p>
+        </div>
+    </div>
+</footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>
